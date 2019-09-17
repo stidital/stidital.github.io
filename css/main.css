@@ -189,7 +189,8 @@ p.lead {
   font-size: 2.4rem;
   line-height: 1.75;
   margin-bottom: 3.6rem;
-  color: rgba(85, 85, 85, 0.95);
+  /*color: rgba(85, 85, 85, 0.95);*/
+  color: white;
 }
 @media only screen and (max-width: 1200px) {
   p.lead {
@@ -604,6 +605,23 @@ form,
  * # forms
  *
  * ------------------------------------------------------------------- */
+.whatdoactivitys{
+font-family: "metropolis-regular", sans-serif;
+font-size: 2.4rem;
+line-height: 1.75;
+margin-bottom: 2.6rem;
+color: rgba(85, 85, 85, 0.95);
+color: white;
+}
+ .width-13{
+   width: 13%;
+ }
+
+.padding_div{
+  height: 30px;
+  background-color: white;
+}
+
 fieldset {
   border: none;
 }
@@ -1226,7 +1244,8 @@ input::-moz-focus-inner {
   font-size: 6rem;
   line-height: 1.3;
   letter-spacing: 0;
-  color: #000000;
+  /* color: #000000; */
+  color: white;
   letter-spacing: -0.03rem;
   margin-top: 0;
   margin-bottom: 4.8rem;
@@ -2217,7 +2236,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
   padding-top: 18rem;
   padding-bottom: 18rem;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   position: relative;
 }
 
@@ -2378,7 +2397,8 @@ html.no-csstransitions .home-content__main {
 .s-services {
   padding-top: 18rem;
   padding-bottom: 18rem;
-  color: #555555;
+  /* color: #555555; */
+  color: white;
   position: relative;
 }
 
@@ -2980,8 +3000,9 @@ html.no-csstransitions .home-content__main {
 .s-contact {
   padding-top: 21rem;
   padding-bottom: 10.2rem;
-  background-color: #111111;
-  color: rgba(255, 255, 255, 0.3);
+  /* background-color: #111111; */
+  /*  color: rgba(255, 255, 255, 0.3); */
+  color: white;
   position: relative;
 }
 .s-contact a {
@@ -3138,7 +3159,8 @@ html.no-csstransitions .home-content__main {
   content: "|";
   display: inline-block;
   padding: 0 1rem 0 1.2rem;
-  color: rgba(255, 255, 255, 0.1);
+  /* color: rgba(255, 255, 255, 0.1); */
+  color: white;
 }
 .cl-copyright span:last-child::after {
   display: none;
@@ -3184,7 +3206,8 @@ html.no-csstransitions .home-content__main {
   display: block;
   width: 1px;
   height: 100px;
-  background-color: rgba(255, 255, 255, 0.1);
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  background-color: white;
   position: absolute;
   top: -115px;
   left: 50%;
@@ -3197,7 +3220,8 @@ html.no-csstransitions .home-content__main {
   line-height: 30px;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  color: rgba(255, 255, 255, 0.15);
+  /* color: rgba(255, 255, 255, 0.15); */
+  color: white;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -webkit-transform: rotate(-90deg);
